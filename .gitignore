@@ -1,0 +1,32 @@
+# Среда разработки и кэш
+.uv_cache/
+uv-bin/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+
+# Архивы
+*.zip
+*.tar.gz
+*.rar
+
+# Настройки ОС
+.DS_Store
+Thumbs.db
+
+# Данные датасета
+data/
+
+# Сохраненные веса моделей
+models/
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.h5
+
+# Логи экспериментов MLflow
+mlflow.db
+mlruns/
